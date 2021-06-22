@@ -1,0 +1,4 @@
+GET   /memorycache/users       controllers.PlayRedisController.getAll()
+POST  /memorycache/users       controllers.PlayRedisController.postAll()
+GET   /memorycache/users/:id   controllers.PlayRedisController.getOne(id: Long)
+POST  /memorycache/users/:id   controllers.PlayRedisController.postOne(id: Long)

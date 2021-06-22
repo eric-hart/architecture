@@ -1,0 +1,2 @@
+POST  /distribution/node/query  controllers.RestApiDistributionNodeController.query
+POST  /distribution/node/execute controllers.RestApiDistributionNodeController.execute

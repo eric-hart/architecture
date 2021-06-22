@@ -1,0 +1,32 @@
+{
+  "name": "electron-pc",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Eric Hart",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp",
+    "start": "yarn run build && electron ./build & node server/index.js"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "electron": "^12.0.9",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-flow": "^7.13.13",
+    "@babel/register": "^7.13.16",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-pug": "^4.0.1",
+    "gulp-uglify": "^3.0.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "koa-mongodb",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "run": "yarn run build && node dist/index.js"
+  },
+  "dependencies": {
+    "json-diff": "^0.5.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "mongodb": "^3.6.9",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "babel-plugin-root-import": "^6.6.0"
+  }
+}
