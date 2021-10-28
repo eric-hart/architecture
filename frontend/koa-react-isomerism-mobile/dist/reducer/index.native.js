@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=_default;var _userReducer=_interopRequireDefault(require("./userReducer"));function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function _default(e={user:void 0},u){u=(0,_userReducer.default)(e.user,u);return e.user=u,e}

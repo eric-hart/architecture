@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _reactNative=require("react-native");const{AndroidFetchModule}=_reactNative.NativeModules;var _default=AndroidFetchModule;exports.default=_default;
